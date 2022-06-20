@@ -15,7 +15,7 @@ function Home(){
     const [favrt,setFav] = useState([]);
     useEffect(()=>{
         const fetchdata = async() =>{
-            Axios.get('http://localhost:3001/').then(async (response)=>{
+            Axios.get('https://nice-movies-api.herokuapp.com/').then(async (response)=>{
                 response.data.map((movie)=>{
                     movieData.push(movie)
                 })
