@@ -1,0 +1,142 @@
+#body{
+    display: flex;
+    flex-direction: row;
+}
+#side-panel{
+    background-color: #302252;
+    display: flex;
+    flex-direction: column;
+    width: 20em;
+    height: 59.5em;
+}
+#greet{
+    display: flex;
+    flex-direction: column;
+    margin: 1em .5em;
+    
+}
+#greet1{
+    color: aliceblue;
+    font-size: 40px;
+    font-weight: 700;
+}
+#greet2{
+    color: antiquewhite;
+    font-size: 35px;
+    font-weight: 700;
+}
+#dividor1{
+    width: 17em;
+    height: 3px;
+    background-color: aliceblue;
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+#ScoreSection{
+    display: flex;
+    flex-direction: column;
+    font-size: 25px;
+    margin: 0em .5em;
+    color: aliceblue;
+}
+#ScoreSection span{
+    margin: .2em 0em;
+}
+#wrong{
+    color: red;
+}
+#correct{
+    color: green;
+}
+#dividor2{
+    width: 17em;
+    height: 3px;
+    background-color: aliceblue;
+    position: absolute;
+    bottom: 7em;
+    margin: 0em 1em;
+}
+#exit{
+    position: absolute;
+    bottom: .8em;
+    padding: .5em 8em .5em .5em;
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 30px;
+}
+#exit:hover{
+    background-image: linear-gradient(to right, #513e80,#302252);
+}
+#main{
+    background-image: linear-gradient(#513e80,#302252);
+    height: 59.5em;
+    width: 100em;
+}
+#TestWindow{
+    position: relative;
+    top: 20em;
+    left: 30em;
+    width: 40em;
+    height: fit-content;
+    background-color: aliceblue;
+    border-radius: 10px;
+}
+#question{
+    font-size: 30px;
+    margin-left: .5em;
+    
+}
+#optionSection{
+    margin-top: 2em;
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+}
+.option{
+    width: 10em;
+    height: 5em;
+    margin: 1em;
+    border: none;
+    background-color: #513e80;
+    border-radius: 5px;
+    cursor: pointer;
+    color: aliceblue;
+}
+.option:hover{
+    background-color: #302252;
+}
+#form{
+    display: flex;
+    flex-direction: column;
+    width: 30em;
+    height: 10em;
+    background-color: #513e80;
+    position: absolute;
+    top: 20em;
+    left: 50em;
+    box-shadow: 0 0 0 100vmax rgba(0, 0, 0, .5);
+    border-radius: 10px;
+}
+#name{
+    margin: 2em 1em;
+    border-radius: 5px;
+    border: none;
+    padding: .5em;
+}
+#form button{
+    width: 10em;
+    align-self: center;
+    height: 2.5em;
+    border: none;
+    border-radius: 5px;
+    background-color: #a287e8;
+    cursor: pointer;
+    color: aliceblue;
+    font-size: 20px;
+}
+#form button:hover{
+    background-color: #302252;
+}
