@@ -28,7 +28,7 @@ function Home(){
         fetchdata();
     },[])
     const like = (nm)=>{
-        favrt.push(nm);
+        favrt.add(nm);
         console.log(favrt);
     }
     const switchFav =()=>{
