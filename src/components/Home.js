@@ -12,7 +12,7 @@ function Home(){
     const [temp,setTemp] = useState(0);
     const [query,setQuery] = useState("");
     const [check,setCheck] = useState("");
-    const [favrt,setFav] = useState([]);
+    const [favrt,setFav] = useState(new Set());
     useEffect(()=>{
         const fetchdata = async() =>{
             Axios.get('https://nice-movies-api.herokuapp.com/').then(async (response)=>{
